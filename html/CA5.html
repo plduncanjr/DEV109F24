@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Phil's Deviled Eggs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Berkshire Swash|Josefin Sans"/>
+    
+<style>
+
+
+div {
+  border: double cornflowerblue;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+.header {
+  /*background-color: #9933cc;
+  color: #ffffff; 
+  padding: 15px; */
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color:  #510321;
+  color:rgb(224, 162, 38);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #020503;
+}
+
+/*.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+} */
+
+.footer {
+  /* background-color: #0099cc;
+  color: #ffffff; */
+  text-align: center;
+ /* font-size: 12px;
+  padding: 15px; */
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+      .col-1  {width: 8.33%;}
+      .col-2  {width: 16.66%;}
+      .col-3  {width: 25%;}
+      .col-4  {width: 33.33%;}
+      .col-5  {width: 41.66%;}
+      .col-6  {width: 50%;}
+      .col-7  {width: 58.33%;}
+      .col-8  {width: 66.66%;}
+      .col-9  {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}  
+  }
+
+    /* Tablets: */
+    @media only screen and (min-width: 600px) {
+    .col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+}
+
+
+
+.foo {
+        column-count: 3;
+      }
+
+</style>
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="header">
+    <h1 style="margin-top: 0px;">A Picnic Favorite</h1>
+    <h2 style="margin-top: 0px;">Deviled Eggs</h2>
+    <p>This recipe is adapted from "U.S.A. Cookbook," written by <strong>Sheila Lukins, </strong> and found on https://cooking.nytimes.com/recipes/6866-classic-deviled-eggs</p>
+</div>
+
+<div class="row">
+    <div class="col-3 menu">
+        <ul>
+        <li>Recipe 1</li>
+        <li>Recipe 2</li>
+        <li>Recipe 3</li>
+        <li>Recipe 4</li>
+        </ul>
+    </div>
+
+    <div class="col-6">
+
+        <figure>
+            <img src="../images/deviled-eggs.jpg" style="height:250px;" alt="picture of a plate full of delicious deviled eggs">
+            <figcaption style="width: 350px">Photo by: Willis Lam, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0, via Wikimedia Commons</figcaption>
+        </figure>
+
+      
+    </div>
+
+
+
+  <div class="col-3 right">
+    <div class="aside">
+        <h3 class="rate">Rate This Recipe</h3>
+        <fieldset style="width: 250px;">
+          <legend>How difficult is this recipe?</legend>
+            <input type="radio" id="easy" name="easy"> Easy
+            <input type="radio" id="med" name="med">Intermediate
+            <input type="radio"id="hard" name="hard"> Hard
+        </fieldset>
+        <p>&nbsp;</p>
+        <h3>Conversion</h3>
+        <input type="text" id="tblspn" name ="tblspn">
+        =
+        <input type="text" id="cups" name="cups">
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+    <div class="foo">
+  
+        <h3>Ingredients</h3>
+
+        <ul>
+          <li>6 large eggs</li>
+          <li>1 teaspoon Dijon mustard</li>
+          <li>1 to 2 dashes Tabasco sauce, to taste</li>
+          <li>¼ teaspoon freshly ground black pepper</li>
+          <li>1 tablespoon snipped fresh chives</li>
+          <li>3 tablespoons mayonnaise</li>
+          <li>Paprika, for garnish</li>
+          <li>Whole fresh chives, for garnish</li>
+        </ul>
+
+         
+        <!-- <h3>Equipment</h3>
+    
+        <ul>
+          <li>small saucepan</li>
+          <li>tablespoon</li>
+          <li>fork</li>
+          <li>knife</li>
+          <li>platter</li>
+        </ul>    -->
+      
+
+        <h3>Directions</h3>
+        <ol>
+          <li>Rinse eggs with warm water, and place in a small saucepan. Cover with cold water, place the pan over medium-high heat and bring to a boil. Turn off heat, cover and let sit for 10-12 minutes. Drain, rinse under cold water and peel. Cool in the refrigerator, loosely covered, for 15 minutes.</li>
+          <li>Halve eggs lengthwise, and carefully scoop out yolks. Place yolks in a bowl, and mash with a fork. Add mustard, Tabasco, salt, pepper and snipped chives. Stir in mayonnaise.</li>
+          <li>Fill each egg white with about 1 1/2 teaspoons of the egg-yolk mixture and dust the top with paprika. Arrange in a spoke design on a platter; garnish with whole chives.</li>                      
+        </ol>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    <p><a href="../index.html">Back to the Main Page</a>  <span style="float:right;">This page created as academic activity only.</p></span>
+</div>
+
+</body>
+</html>
